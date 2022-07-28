@@ -1,4 +1,4 @@
-## Olá, eu sou Emanuel Pinto Nogueira! 
+## Olá, eu sou Emanuel! 
 
 - 🔭 Hoje eu trabalho com Front-End
 - 🌱 Estou estudando JavaScript e React
@@ -7,6 +7,6 @@
 
 <div align="center">
   <a href="https://github.com/EmanuelNogueira">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EmanuelNogueira&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmanuelNogueira&layout=compact&langs_count=7&theme=vision-friendly-dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EmanuelNogueira&show_icons=true&theme=codeSTACKr&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmanuelNogueira&layout=compact&langs_count=7&theme=codeSTACKr"/>
 </div>
