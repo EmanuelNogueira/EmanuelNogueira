@@ -23,5 +23,5 @@
   <a href="https://instagram.com/ue.manel" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:manunogueira8814@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/emanuel-pinto-nogueira-474324162/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- <h6 align="center" > Sou apaixonado por tecnologia e novas experiências, gosto de novos desafios voltadas a programação. <h6>
+ <h6 align="center" > Sou apaixonado por tecnologia, gosto de novos desafios voltadas a programação. <h6>
 </div>
