@@ -88,62 +88,6 @@ SEO, Core Web Vitals, responsive delivery, debugging, code review and integratio
 
 <sub>Generated inside this repository and refreshed automatically every day by GitHub Actions.</sub>
 
-## `> experience --summary`
-
-**Vasta — Shopify Agency** · Web Developer | Shopify Specialist  
-`Feb 2026 — Present · Remote`
-
-**B-tech Jr.** · Front-End Developer  
-`2025 — Present · Vitória da Conquista, Brazil`
-
-<details>
-<summary><strong>View previous experience</strong></summary>
-
-<br>
-
-**Secretaria de Saúde VCA** · Front-End Developer  
-`2023 · 1 year`
-
-- Responsive React interfaces based on UI/UX designs.
-- Integration between React frontends and Python/Flask backends.
-
-**Linda Jóia** · IT Technician  
-`2022 · 8 months`
-
-- Web improvements and bug fixes with HTML, CSS and JavaScript.
-- Hardware maintenance and technical support.
-
-</details>
-
-<details>
-<summary><strong>Education & certifications</strong></summary>
-
-<br>
-
-**Bachelor's Degree in Information Systems — IFBA**  
-`7th semester · In progress`
-
-- Shopify — Shopify Academy
-- JavaScript — IFSul
-- Front-End — OneBitCode
-- React: Basic to Advanced — Hora de Codar
-
-</details>
-
-## `> connect --open`
-
-Interested in **Shopify, React, SaaS products, integrations or web performance**? Let's build something useful.
-
-<div align="center">
-  <a href="https://github.com/EmanuelNogueira?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories">
-  </a>
-  <a href="https://emanuel-nogueira.vercel.app">
-    <img src="https://img.shields.io/badge/VIEW_PORTFOLIO-6C3BFF?style=for-the-badge&logo=vercel&logoColor=white" alt="View portfolio">
-  </a>
-</div>
-
-<br>
 
 <p align="center">
   <samp>BUILD FAST · INTEGRATE CLEANLY · IMPROVE CONTINUOUSLY</samp>
