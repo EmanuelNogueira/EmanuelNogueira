@@ -1,0 +1,68 @@
+name: Update profile dashboard
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-dashboard.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-dashboard
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate live GitHub statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: generated/profile-stats.svg
+          include-title: true
+          custom-title: "Emanuel Nogueira // Engineering Activity"
+          small-title: true
+          max-languages: 8
+          animated-language-chart: true
+          language-animation-speed: 24
+          top-icon: github
+          colors: "#0B0F19 #2A3552 #22D3EE #8B5CF6 #C7D0E4"
+          border-radius: 14
+          show-border: true
+          hide-keys: general, starredBy, forkedBy, watchedBy, templates, archived, private
+          category-order: contributions, languages, repositories
+          locale: en
+          commit-and-push: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate animated contribution graphs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            generated/contribution-snake.svg?palette=github-light&color_snake=%236C3BFF
+            generated/contribution-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE
+
+      - name: Publish generated profile assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated
+          if git diff --staged --quiet; then
+            echo "Profile assets are already up to date."
+          else
+            git commit -m "chore: update dynamic profile dashboard"
+            git push
+          fi
