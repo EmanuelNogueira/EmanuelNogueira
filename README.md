@@ -29,7 +29,6 @@
 
 ---
 
-## `> whoami`
 
 Web Developer and Shopify Specialist with **4 years of experience** building and evolving e-commerce products, SaaS features, institutional portals and internal systems.
 
